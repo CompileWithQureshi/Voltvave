@@ -1,4 +1,5 @@
 import React from "react";
+import partner from "../assets/partner.jpg"
 import {
   Card,
   CardHeader,
@@ -29,7 +30,7 @@ function Vendors() {
             <Card key={index} maxW="sm" shadow="lg" borderWidth="1px" borderRadius="lg">
               <CardBody>
                 <Image
-                  src="src/assets/partner.jpg"
+                  src={partner}
                   alt="Partner logo"
                   borderRadius="lg"
                   className="w-full h-48 object-cover"
