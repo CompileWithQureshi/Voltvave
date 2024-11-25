@@ -1,6 +1,7 @@
 import React from "react";
 import { Avatar } from "@chakra-ui/react";
 import LocalShop from '../assets/localShop.jpg'
+import Offer from '../assets/Offer.jpg'
 
 function Product() {
   return (
@@ -53,7 +54,7 @@ function Product() {
         </h1>
         <div className="h-48 w-full mb-5">
           <img
-            src="src/assets/tr_ai_8.jpg"
+            src={Offer}
             alt="Product display"
             className="w-full h-full object-cover rounded-md"
           />
