@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .custom-box {
+    @apply border-2 px-2 rounded-xl;
+  }
+}
