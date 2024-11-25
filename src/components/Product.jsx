@@ -1,5 +1,6 @@
 import React from "react";
 import { Avatar } from "@chakra-ui/react";
+import LocalShop from '../assets/localShop.jpg'
 
 function Product() {
   return (
@@ -13,7 +14,7 @@ function Product() {
       <div className="flex flex-col md:flex-row md:justify-between gap-5">
         {/* Left Aside */}
         <aside className="w-full md:w-[30rem] flex flex-col justify-between">
-          <p className="my-5 text-secondary text-title">
+          <p className="my-5 text-secondary text-title w-[30rem]">
             "Discover a faster, more convenient way to shop locally. Our
             platform connects you with trusted vendors and delivers
             high-quality products directly to your door, ensuring a seamless,
@@ -38,7 +39,7 @@ function Product() {
         {/* Right Aside */}
         <aside className="w-full h-[20rem] md:h-[27.5625rem]">
           <img
-            src="src/assets/4028501.jpg"
+            src={LocalShop}
             alt="Shopping experience illustration"
             className="w-full h-full object-cover rounded-md"
           />

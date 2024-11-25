@@ -1,6 +1,7 @@
 import { Button } from "@chakra-ui/react";
 import { useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import HomeImg from "../assets/HomeImg.jpg"
 
 function Home() {
   const [isFocused, setIsFocused] = useState(false);
@@ -34,9 +35,9 @@ function Home() {
             placeholder="Enter your Address"
           />
           <Button
-            colorScheme="teal"
+            colorScheme="green"
             size="md"
-            _hover={{ backgroundColor: "teal.600" }}
+            _hover={{ backgroundColor: "success" }}
           >
             Search
           </Button>
@@ -45,9 +46,9 @@ function Home() {
         {/* Image Section */}
         <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
           <img
-            src="src/assets/3911161.jpg"
+            src={HomeImg}
             alt="Local Shopping"
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg w-full"
           />
         </div>
       </main>
